@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AtmosSkySense</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">AtmosSkySense</h1>
+
+      <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Enter city" />
+
+        <button id="searchBtn">Get</button>
+      </div>
+
+      <div class="weather-card">
+        <div class="top-section">
+          <div class="location-info">
+            <p>
+              Latitude:
+              <span id="lat">--</span>
+            </p>
+
+            <p>
+              Longitude:
+              <span id="lon">--</span>
+            </p>
+          </div>
+
+          <div class="city-name">
+            <h2 id="city">City Name</h2>
+          </div>
+        </div>
+
+        <div class="bottom-section">
+          <div class="left-info">
+            <p>
+              Weather:
+              <span id="weather">--</span>
+            </p>
+
+            <p>
+              Temperature:
+              <span id="temp">--</span> °C
+            </p>
+
+            <p>
+              Feels Like:
+              <span id="feelsLike">--</span> °C
+            </p>
+
+            <p>
+              Humidity:
+              <span id="humidity">--</span>%
+            </p>
+
+            <p>
+              Pressure:
+              <span id="pressure">--</span> hPa
+            </p>
+          </div>
+
+          <div class="right-info">
+            <p>
+              Clouds:
+              <span id="clouds">--</span>%
+            </p>
+
+            <p>
+              Wind Speed:
+              <span id="wind">--</span> km/h
+            </p>
+
+            <p>
+              Sunrise:
+              <span id="sunrise">--</span>
+            </p>
+
+            <p>
+              Sunset:
+              <span id="sunset">--</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>© 2026 Anand</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
