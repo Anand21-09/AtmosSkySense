@@ -6,8 +6,8 @@ A modern and responsive Weather Web Application that provides real-time weather 
 
 Add your deployed website link here:
 
-```text
-[https://your-](https://anand21-09.github.io/AtmosSkySense/)
+```
+https://anand21-09.github.io/AtmosSkySense/
 ```
 
 ---
