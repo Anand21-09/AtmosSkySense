@@ -1,133 +1,55 @@
-# 🌤️ AtmosSkySense
+# AtmosSkySense
 
-A modern and responsive Weather Web Application that provides real-time weather information for any city around the world. The application allows users to search for a location and instantly view current weather conditions including temperature, humidity, wind speed, and weather descriptions.
+AtmosSkySense is a simple weather application built using HTML, CSS, and JavaScript. The application fetches weather data through a Weather API and displays information such as temperature, humidity, wind speed, and weather conditions for any city entered by the user.
 
-## 🚀 Live Demo
+## Features
 
-Add your deployed website link here:
+* Search weather by city name
+* View current temperature
+* Check humidity levels
+* View wind speed
+* Weather condition display
+* Responsive layout for desktop and mobile devices
 
-```
-https://anand21-09.github.io/AtmosSkySense/
-```
+## Tech Stack
 
----
+* HTML
+* CSS
+* JavaScript
+* Weather API
 
-## ✨ Features
-
-* 🔍 Search weather by city name
-* 🌡️ Real-time temperature display
-* 💧 Humidity information
-* 🌬️ Wind speed details
-* ☁️ Weather condition descriptions
-* 📱 Responsive design for mobile and desktop
-* ⚡ Fast and lightweight interface
-* 🎨 Clean and modern UI
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-* HTML5
-* CSS3
-* JavaScript (ES6)
-
-### API
-
-* Weather Api
-
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```text
 AtmosSkySense/
-│
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
 ```
 
----
+## Running the Project
 
-
-```
-
----
-
-## ⚙️ Installation
-
-### Clone the Repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/Anand21-09/AtmosSkySense.git
 ```
 
-### Navigate to Project Folder
+2. Open the project folder
 
 ```bash
 cd AtmosSkySense
 ```
 
-### Run the Project
+3. Open `index.html` in your browser
 
-Simply open:
+## Why I Built This
 
-```text
-index.html
-```
+I built this project to practice API integration, asynchronous JavaScript, and DOM manipulation while creating something that solves a real-world problem.
 
-in your browser.
+## Author
 
----
-
-## 🔑 API Setup
-
-1. Create an account on WeatherApi.
-2. Generate your API key.
-3. Open `script.js`.
-4. Replace the placeholder API key with your own:
-
-```javascript
-const API_KEY = "YOUR_API_KEY";
-```
-
----
-
-## 🎯 Learning Outcomes
-
-* API Integration
-* Fetch API Usage
-* DOM Manipulation
-* Responsive Web Design
-* JavaScript Event Handling
-* Error Handling
-* Frontend Development Best Practices
-
----
-
-## 🔮 Future Improvements
-
-* 📍 Current Location Weather
-* 🌅 Sunrise & Sunset Information
-* 📅 7-Day Forecast
-* 🌎 Multiple Language Support
-* 🌙 Dark/Light Theme Toggle
-* 🗺️ Weather Maps Integration
-* ⭐ Favorite Cities Feature
-
----
-
-## 👨‍💻 Author
-
-**Anand**
-
-
+Anand
 
 GitHub: https://github.com/Anand21-09
-
----
-
-⭐ If you like this project, consider giving it a star on GitHub!
